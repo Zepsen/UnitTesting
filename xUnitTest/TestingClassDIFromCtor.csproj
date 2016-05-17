@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtensionManager.cs" />
+    <Compile Include="ExtensionManagerFactory.cs" />
+    <Compile Include="LogAnalyser.cs" />
+    <Compile Include="IExtensionManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

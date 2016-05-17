@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using xUnitTest;
 
-namespace xUnitTest
+namespace xUnit
 {
-    class Program
+    internal class FakeExtensionManager : IExtensionManager
     {
-        static void Main(string[] args)
+        public bool IsValidFile()
         {
-
+            return false;
         }
     }
 }

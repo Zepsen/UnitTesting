@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace xUnitTest
 {
-    class Program
+    internal class ExtensionManager : IExtensionManager
     {
-        static void Main(string[] args)
+        public bool IsValidFile()
         {
-
+            return true;
         }
     }
 }
