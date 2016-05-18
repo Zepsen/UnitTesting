@@ -6,7 +6,7 @@ using Xunit;
 namespace xUnit
 {
     [Trait("Through the factory", "DI")]
-    public class DIThroughTheFactory
+    public class StubThroughTheFactory
     {
         [Fact]
         public void TestMethod1()
@@ -14,7 +14,7 @@ namespace xUnit
             ExtensionManagerFactory.SetManagerAsStubs(
                 new FakeExtensionManager());
 
-            var log = new LogAnalyser();
+            var log = new TestClassStubFactory();
 
             Assert.False(log.IsValidationData());
         }

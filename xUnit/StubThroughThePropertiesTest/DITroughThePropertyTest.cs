@@ -6,16 +6,16 @@ using Xunit.Abstractions;
 namespace xUnit
 {
     [Trait("Through the property", "DI")]
-    public class DITroughThePropertyTest
+    public class StubTroughThePropertyTest
     {
         [Fact]
         public void IsValidationDataFalse()
         {
-            var log = new LogAnalyser
+            var log = new TestClassStubProperties
             {
                 Manager = new FakeExtensionManager()
             };
-             
+
             Assert.False(log.IsValidationData());
         }
     }
