@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace xUnitTest.Interfaces
 {
-    interface IEmailService
+    public interface IEmailService
     {
         void SendEmail(string to, string subject, string body);
     }

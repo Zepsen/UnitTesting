@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xUnit", "xUnit\xUnit.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSub", "NSub\NSub.csproj", "{F8AC39B0-5E60-4067-86CA-FBC2FC864366}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqUnitTests", "MoqUnitTests\MoqUnitTests.csproj", "{D1960CA1-B2C5-42E3-8D5A-D9FF5EBC4744}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F8AC39B0-5E60-4067-86CA-FBC2FC864366}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8AC39B0-5E60-4067-86CA-FBC2FC864366}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8AC39B0-5E60-4067-86CA-FBC2FC864366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1960CA1-B2C5-42E3-8D5A-D9FF5EBC4744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1960CA1-B2C5-42E3-8D5A-D9FF5EBC4744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1960CA1-B2C5-42E3-8D5A-D9FF5EBC4744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1960CA1-B2C5-42E3-8D5A-D9FF5EBC4744}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

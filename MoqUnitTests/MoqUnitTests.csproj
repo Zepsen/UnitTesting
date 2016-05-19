@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F8AC39B0-5E60-4067-86CA-FBC2FC864366}</ProjectGuid>
+    <ProjectGuid>{D1960CA1-B2C5-42E3-8D5A-D9FF5EBC4744}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NSub</RootNamespace>
-    <AssemblyName>NSub</AssemblyName>
+    <RootNamespace>MoqUnitTests</RootNamespace>
+    <AssemblyName>MoqUnitTests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -38,8 +38,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NSubstitute, Version=1.10.0.0, Culture=neutral, PublicKeyToken=92dd2e9066daa5ca, processorArchitecture=MSIL">
-      <HintPath>..\packages\NSubstitute.1.10.0.0\lib\net45\NSubstitute.dll</HintPath>
+    <Reference Include="Moq, Version=4.2.1510.2205, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.2.1510.2205\lib\net40\Moq.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -68,26 +68,20 @@
     </When>
     <Otherwise>
       <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework">
-          <Private>False</Private>
-        </Reference>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
       </ItemGroup>
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="MockTestWithNSub.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReturningValuesWithNSub.cs" />
-    <Compile Include="TrowingFakeExeptionWithNSubs.cs" />
-    <Compile Include="StubAndMockWithNSub.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\xUnitTest\TestingClasses.csproj">
-      <Project>{230A0D3B-9A90-4572-8E96-73D8CC031385}</Project>
+      <Project>{230a0d3b-9a90-4572-8e96-73d8cc031385}</Project>
       <Name>TestingClasses</Name>
     </ProjectReference>
   </ItemGroup>

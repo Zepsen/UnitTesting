@@ -59,10 +59,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Events\TestClassEvents.cs" />
     <Compile Include="ExtensionManager.cs" />
     <Compile Include="ExtensionManagerFactory.cs" />
     <Compile Include="Interfaces\IEmailService.cs" />
     <Compile Include="Interfaces\IExtensionManager.cs" />
+    <Compile Include="Interfaces\IViewEvent.cs" />
     <Compile Include="Interfaces\IWebService.cs" />
     <Compile Include="ExCrackAndOverride\LogAnalyser.cs" />
     <Compile Include="Mock\TestClassMock.cs" />
