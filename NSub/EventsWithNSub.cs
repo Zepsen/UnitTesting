@@ -6,7 +6,7 @@ using Xunit;
 
 namespace NSub
 {
-    public class UnitTest1
+    public class EventsWithNSub
     {
         [Fact]
         public void TestMethod1()

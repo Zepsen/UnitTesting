@@ -5,7 +5,7 @@ using Xunit;
 
 namespace MoqUnitTests
 {
-    public class ReturningValuesWithNSub
+    public class ReturningValuesWithMoq
     {
         [Fact]
         public void TestMethod1()

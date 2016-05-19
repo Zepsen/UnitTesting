@@ -38,4 +38,4 @@ using System.Runtime.InteropServices;
 //Internal visible 
 [assembly: InternalsVisibleTo("xUnit")]
 [assembly: InternalsVisibleTo("NSub")]
-[assembly: InternalsVisibleTo("Moq")]
+[assembly: InternalsVisibleTo("MoqUnitTests")]

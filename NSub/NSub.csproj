@@ -80,7 +80,7 @@
     <Compile Include="ReturningValuesWithNSub.cs" />
     <Compile Include="TrowingFakeExeptionWithNSubs.cs" />
     <Compile Include="StubAndMockWithNSub.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="EventsWithNSub.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
